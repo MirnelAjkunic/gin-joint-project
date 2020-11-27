@@ -1,0 +1,15 @@
+[
+    {
+        "drinks": "../assets/img/bild7.png",
+        "infoDrinks": "“A trick door opening to Bathtub Gin, a hopping Chelsea gin joint harkening back to the days of false store fronts”",
+        "author": "THE GUARDIAN",
+        "id": "1"
+    },
+
+    {
+        "drinks": "../assets/img/bild8.png",
+        "infoDrinks": "“Life on the inside: exactly how you imagined it’d be... nailhead-tucked bar stools and—smack-dab in the center of the room—a glass-covered, claw-foot bathtub.”",
+        "author": "URBAN DADDY",
+        "id": "2"
+    }
+]

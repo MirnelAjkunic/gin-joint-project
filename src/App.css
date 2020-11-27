@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&family=Yantramanav:wght@300;400;500;700;900&display=swap');
+
+/* font-family: 'Tinos', serif;
+font-family: 'Yantramanav', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#hero{
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Tinos', serif;
+  
+  
+  background-image: url(../src/assets/img/bild1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
   color: white;
 }
+#hero h1{
+  font-size: 7.5em;
+  letter-spacing: 0.5em;
 
-.App-link {
-  color: #61dafb;
+}
+#hero h2{
+  font-size: 5em;
+  letter-spacing: 0.3em;
+}
+#navi{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 7vh;
+  color: gray;
+  font-size: 2em;
+  background-color: #312929;
+  
+}
+#navi li {
+  list-style: none;
+}
+#navi a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#navi a:hover {
+  color: #bb7043;
+}
+#aboutGin {
+  background-color: #212121;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  font-family: "Tinos", serif;
+}
+#aboutText {
+  color: #ffffff;
+  margin-left: 7%;
+  width: 30%;
+}
+#aboutText p {
+  font-size: 1.5em;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  width: 60%;
+}
+#aboutText h1 {
+  font-size: 3em;
+}
+#aboutText button {
+  padding: 3% 5%;
+  background-color: #bb7043;
+  border-radius: 10px;
+  border: none;
+  
+}
+#corona {
+  font-family: "Yantramanav", sans-serif;
+  background-color: #bb7043;
+  min-height: 100vh;
+  width: 100%;
+}
+#json1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+#dataInfo {
+  width: 30%;
+  margin-bottom: 10vh;
+}
+#dataInfo h1 {
+  
+  font-size: 3em;
+  width: 50%;
+  text-align: center;
+}
+#dataInfo h2 {
+  
+  color: #ffff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+#dataInfo #time {
+  
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 20px;
+}
+#type {
+  color: #212121;
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  width: 60%;
+  margin-top: 2%;
+}
+.textCorona{
+  font-size: 25px;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 5%;
+  text-transform: uppercase;
+  font-family: "Tinos", serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#ginTonic {
+  background: url(./assets/img/bild6.png) right / 60% no-repeat;
+  background-color: #212121;
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+}
+#ginTonicText {
+  margin-left: 15%;
+}
+#ginTonicText p:nth-of-type(1) {
+  text-transform: uppercase;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 1.6em;
+  margin-bottom: 3%;
+}
+#ginTonicText h1:nth-of-type(1) {
+  text-transform: uppercase;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 6em;
+  width: 50%;
+  line-height: 90px;
+  margin-bottom: 2%;
+}
+#ginTonicText p:nth-of-type(2) {
+  width: 30%;
+  font-size: 1.9em;
+  margin-bottom: 2%;
+  font-family: "Tinos", serif;
+}
+#ginTonicText button {
+  padding: 1% 3%;
+  background-color: #bb7043;
+  border: none;
+  border-radius: 10px;
+}
+
+
+#drink {
+  margin-top: -6%;
+  background-color: #212121;
+  height: 105vh;
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+}
+#fronts {
+  width: 100%;
+  border: 0.5px solid #7f7f7f;
+}
+#drink img {
+  margin-left: 90%;
+  margin-top: 6%;
+}
+
+#fronts_img {
+  
+  height: 60vh;
+  margin-bottom: 2%;
+}
+
+#fronts h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  width: 67%;
+  margin-left: 16.5%;
+}
+
+#fronts p {
+  text-align: center;
+  margin-top: 4%;
+  text-transform: uppercase;
+  font-size: 20px;
 }
