@@ -200,7 +200,7 @@ font-family: 'Yantramanav', sans-serif; */
 
 #fronts h4 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   width: 67%;
   margin-left: 16.5%;
 }
@@ -216,3 +216,43 @@ font-family: 'Yantramanav', sans-serif; */
   justify-content: center;
   margin-top: 5%;
 }
+#infoNav {
+  padding: 6vh 8%;
+  display:grid;
+  grid-template-columns: 3fr 1fr 2fr;
+  text-transform: uppercase;
+  color: white;
+  background:#212121;
+}
+
+#infoNav h3 {
+  color:#BB7043;
+  margin-bottom:1vh;
+  
+}
+
+.infoHours {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+}
+
+footer {
+  min-height: 27vh;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 0.5px solid #7f7f7f;
+  
+
+  padding-top:4vh;
+  background:#212121;
+}
+footer div img {
+  padding: 1rem;
+  
+  }
+  
+  #lady {
+    margin-right:32%;
+    margin-bottom: 2%;
+  }
